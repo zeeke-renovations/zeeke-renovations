@@ -259,7 +259,7 @@ export function Home() {
       {/* Hero Section */}
       <section
         ref={heroRef}
-        className="relative h-[33vh] flex items-center justify-center overflow-hidden"
+        className="relative h-[40vh] flex items-center justify-center overflow-hidden"
       >
         {/* Background with Floor Plan */}
         <div className="absolute inset-0 z-0 bg-[#3a4556]">
