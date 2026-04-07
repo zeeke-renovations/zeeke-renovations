@@ -255,7 +255,7 @@ export function Home() {
   const ctaInView = useInView(ctaRef, { once: true });
 
   return (
-    <div className="bg-white">
+    <div className="bg-white overflow-x-hidden">
       {/* Hero Section */}
       <section
         ref={heroRef}
