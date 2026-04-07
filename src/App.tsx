@@ -5,11 +5,13 @@ import { Gallery } from "./pages/gallery";
 import { Contact } from "./pages/contact";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
+import { ScrollToTop } from "./components/ScrollToTop";
 
 
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
