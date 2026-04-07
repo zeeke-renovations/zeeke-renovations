@@ -394,8 +394,8 @@ export function Home() {
                   alt="Zeeke Renovations"
                   className="rounded-2xl shadow-2xl"
                 />
-                <div className="absolute -bottom-6 -right-2 bg-[#FF8C42] text-white p-8 rounded-xl shadow-xl">
-                  <div className="text-2xl font-bold">License # 1221122</div>
+                <div className="absolute -bottom-12 -right-4 bg-[#FF8C42] text-white p-4 rounded-xl shadow-xl">
+                  <div className="text-1xl font-bold">License # 1221122</div>
                   <div className="text-lg">Built Right, No Surprises</div>
                 </div>
               </div>
