@@ -516,7 +516,7 @@ export function Home() {
           <img
             src="https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/zeeke-banner-1.png"
             alt="CTA Background"
-            className="w-half h-half object-cover"
+            className="w-full h-full object-contain"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#1a2332]/95 via-[#1a2332]/90 to-[#1a2332]/95" />
         </motion.div>
