@@ -291,7 +291,7 @@ export function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            <span className="block text-lg sm:text-2xl md:text-5xl font-bold text-[#FF8C42] px-2 mt-14 sm:mt-6 leading-tight">
+            <span className="block text-lg sm:text-xl md:text-5xl font-bold text-[#FF8C42] px-2 mt-14 sm:mt-6 leading-tight">
               Turning Your Ideas into Something Real
             </span>
             <span className="block text-base sm:text-xl md:text-3xl font-bold mt-3 px-4 sm:px-2 leading-tight">
