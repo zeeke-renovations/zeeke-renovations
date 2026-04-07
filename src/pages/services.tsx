@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { Link } from "react-router";
 import { motion, useInView } from "motion/react";
 import { CheckCircle, ArrowRight } from "lucide-react";
 
@@ -135,13 +136,15 @@ function ServiceCard({ service, index }: { service: any; index: number }) {
 
         <div className="flex items-center justify-between pt-4 border-t border-gray-200">
           <span className="text-[#1a2332] font-semibold">{service.price}</span>
-          <motion.button
-            className="bg-[#FF8C42] text-white px-6 py-2.5 rounded-lg hover:bg-[#e67a34] transition-colors flex items-center gap-2"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Get Quote <ArrowRight className="w-4 h-4" />
-          </motion.button>
+          <Link to="/contact">
+            <motion.button
+              className="bg-[#FF8C42] text-white px-6 py-2.5 rounded-lg hover:bg-[#e67a34] transition-colors flex items-center gap-2"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Get Quote <ArrowRight className="w-4 h-4" />
+            </motion.button>
+          </Link>
         </div>
       </div>
     </motion.div>
@@ -272,13 +275,15 @@ export function Services() {
               Schedule your free consultation today and let's discuss your
               project
             </p>
-            <motion.button
-              className="bg-[#FF8C42] text-white px-12 py-5 rounded-lg hover:bg-[#e67a34] transition-all duration-300 shadow-lg text-lg font-semibold"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Get Your Free Quote
-            </motion.button>
+            <Link to="/contact">
+              <motion.button
+                className="bg-[#FF8C42] text-white px-12 py-5 rounded-lg hover:bg-[#e67a34] transition-all duration-300 shadow-lg text-lg font-semibold"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                Get Your Free Quote
+              </motion.button>
+            </Link>
           </motion.div>
         </div>
       </section>

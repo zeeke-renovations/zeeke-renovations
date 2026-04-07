@@ -7,19 +7,23 @@ import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { ScrollToTop } from "./components/ScrollToTop";
 
-
 export default function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Footer />
+
       <Header />
+
+      <main className="pt-20">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
+
+      <Footer />
     </BrowserRouter>
   );
 }

@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+import { Link } from "react-router";
 import { motion, useInView, AnimatePresence } from "motion/react";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
 
@@ -362,13 +363,15 @@ export function Gallery() {
               Let's bring your vision to life. Get your free quote
               today!
             </p>
-            <motion.button
-              className="bg-[#FF8C42] text-white px-12 py-5 rounded-lg hover:bg-[#e67a34] transition-all duration-300 shadow-lg text-lg font-semibold"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Request Free Consultation
-            </motion.button>
+            <Link to="/contact">
+              <motion.button
+                className="bg-[#FF8C42] text-white px-12 py-5 rounded-lg hover:bg-[#e67a34] transition-all duration-300 shadow-lg text-lg font-semibold"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                Request Free Consultation
+              </motion.button>
+            </Link>
           </motion.div>
         </div>
       </section>
