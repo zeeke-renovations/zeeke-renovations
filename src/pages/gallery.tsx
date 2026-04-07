@@ -161,7 +161,7 @@ function BeforeAfterSlider({ item }: { item: any }) {
       <img
         src={item.image}
         alt="After"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-contain"
       />
 
       {/* Before Image with Clip */}
@@ -172,7 +172,7 @@ function BeforeAfterSlider({ item }: { item: any }) {
         <img
           src={item.beforeImage}
           alt="Before"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-contain"
         />
       </div>
 

@@ -46,7 +46,7 @@ export function Contact() {
     {
       icon: Clock,
       title: "Hours",
-      content: "Mon-Fri: 8AM-6PM, Sat: 9AM-4PM",
+      content: "Mon-Fri: 8AM-5PM",
       link: null,
     },
   ];
