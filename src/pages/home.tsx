@@ -268,7 +268,7 @@ export function Home() {
             className="absolute inset-0 opacity-15"
             style={{
               backgroundImage: `url('https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/z-circle.png')`,
-              backgroundSize: '50%',
+              backgroundSize: '35%',
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat',
             }}
