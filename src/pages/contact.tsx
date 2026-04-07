@@ -10,9 +10,30 @@ export function Contact() {
     message: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.SyntheticEvent) => {
     e.preventDefault();
-    // Form submission would go here
+      if (!formData.name || !formData.email || !formData.message) {
+      alert("Please fill out required fields.");
+      return;
+      }
+          try {
+        const response = await fetch("/api/contact", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        });
+
+        if (response.ok) {
+          alert("Message sent successfully!");
+          setFormData({ name: "", email: "", phone: "", message: "" });
+        } else {
+          alert("Something went wrong. Try again.");
+        }
+      } catch (error) {
+        alert("Error sending message.");
+      }
     console.log("Form submitted:", formData);
     alert("Thank you for your message! We'll get back to you soon.");
     setFormData({ name: "", email: "", phone: "", message: "" });
