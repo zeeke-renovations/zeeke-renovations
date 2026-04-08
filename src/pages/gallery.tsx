@@ -35,7 +35,7 @@ const galleryItems = [
     title: "Bathroom",
     category: "Bathroom",
     location: "Chelsea, AL",
-    year: "2024",
+    year: "2021",
     description:
       "New shower, new vanity,tiled floor, shiplap around the tub and behind mirrors, new trim, painted.",
     image:
