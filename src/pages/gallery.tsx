@@ -13,7 +13,7 @@ const galleryItems = [
     description:
       "Opened up wall into the living room, new countertops, open shelving, new appliances",
     image:
-      "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/kit-05.png",
+      "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/kit-05.jpg",
     beforeImage:
       "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/kit-01.jpg",
   },
