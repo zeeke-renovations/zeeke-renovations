@@ -49,8 +49,8 @@ export function Contact() {
     {
       icon: Phone,
       title: "Phone",
-      content: "(555) 123-4567",
-      link: "tel:5551234567",
+      content: "(205) 725-4889",
+      link: "tel:2057254889",
     },
     {
       icon: Mail,
@@ -159,7 +159,7 @@ export function Contact() {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF8C42] focus:border-transparent outline-none transition-all"
-                      placeholder="(555) 123-4567"
+                      placeholder="(205) 725-4889"
                     />
                   </div>
                 </div>
@@ -278,12 +278,12 @@ export function Contact() {
             Schedule a free consultation and let's bring your vision to life
           </p>
           <motion.a
-            href="tel:5551234567"
+            href="tel:2057254889"
             className="inline-block bg-[#FF8C42] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#e67a34] transition-all duration-300 shadow-lg hover:shadow-[#FF8C42]/50"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Call Us Now: (555) 123-4567
+            Call Us Now: (205) 725-4889
           </motion.a>
         </motion.div>
       </section>
