@@ -49,7 +49,6 @@ export function Header() {
             >
               <span className="text-[#FF8C42]">Zeeke</span> Renovations
             </motion.div>
-            href="tel:(205) 725-4889
             
           </Link>
 
@@ -77,7 +76,7 @@ export function Header() {
 
             {/* Phone Number */}
             <a
-              href="tel:205-725-4889"
+              href="tel:(205) 725-4889"
               className="flex items-center space-x-2 text-white hover:text-[#FF8C42] transition-colors duration-300"
             >
               <Phone size={18} />
