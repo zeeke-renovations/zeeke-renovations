@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { motion, useInView, useScroll, useTransform } from "motion/react";
 import { Link } from "react-router";
+import { Helmet } from "react-helmet-async";
 import {
   ArrowRight,
   CheckCircle,
@@ -255,6 +256,15 @@ export function Home() {
   const ctaInView = useInView(ctaRef, { once: true });
 
   return (
+  <>
+    <Helmet>
+      <title>Zeeke Renovations | Home Remodeling in Chelsea AL</title>
+      <meta
+        name="description"
+        content="Bathroom, kitchen, and basement remodeling in Chelsea, AL and surrounding areas."
+      />
+    </Helmet>
+
     <div className="bg-white overflow-x-hidden">
       {/* Hero Section */}
       <section
@@ -563,5 +573,6 @@ export function Home() {
         </div>
       </section>
     </div>
+   </> 
   );
 }

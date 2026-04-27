@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { Link } from "react-router";
 import { motion, useInView } from "motion/react";
 import { CheckCircle, ArrowRight } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const services = [
   {
@@ -153,6 +154,15 @@ function ServiceCard({ service, index }: { service: any; index: number }) {
 
 export function Services() {
   return (
+  <>
+    <Helmet>
+      <title>Remodeling Services | Zeeke Renovations Chelsea AL</title>
+      <meta
+        name="description"
+        content="Bathroom, kitchen, basement, and home remodeling services in Chelsea, AL. Quality craftsmanship with no surprises."
+      />
+    </Helmet>
+
     <div className="bg-white">
       {/* Hero Section */}
       <section className="relative py-32 bg-gradient-to-br from-[#1a2332] to-[#2a3342] overflow-hidden">
@@ -288,5 +298,6 @@ export function Services() {
         </div>
       </section>
     </div>
+  </>
   );
 }

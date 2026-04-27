@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
 import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -73,6 +74,14 @@ export function Contact() {
   ];
 
   return (
+  <>
+    <Helmet>
+      <title>Contact Zeeke Renovations | Zeeke Renovations Chelsea AL</title>
+      <meta
+        name="description"
+        content="Bathroom, kitchen, basement, and home remodeling services in Chelsea, AL. Quality craftsmanship with no surprises."
+      />
+    </Helmet>
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative h-[40vh] bg-[#1a2332] flex items-center justify-center overflow-hidden">
@@ -288,5 +297,6 @@ export function Contact() {
         </motion.div>
       </section>
     </div>
+  </>
   );
 }

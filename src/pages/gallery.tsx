@@ -2,6 +2,7 @@ import { useState, useRef } from "react";
 import { Link } from "react-router";
 import { motion, useInView, AnimatePresence } from "motion/react";
 import { ChevronLeft, ChevronRight, X } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 const galleryItems = [
   {
@@ -264,6 +265,16 @@ export function Gallery() {
       : galleryItems.filter((p) => p.category === selectedCategory);
 
   return (
+  <>
+    <Helmet>
+      <title>Remodeling Gallery | Zeeke Renovations Chelsea AL</title>
+      <meta
+        name="description"
+        content="Before and after remodeling projects in Chelsea, AL including kitchens, bathrooms, basements, and outdoor spaces."
+      />
+    </Helmet>
+
+    <div className="bg-white"></div>
     <div className="bg-white">
       {/* Hero Section */}
       <section className="relative py-32 bg-gradient-to-br from-[#1a2332] to-[#2a3342] overflow-hidden">
@@ -312,6 +323,7 @@ export function Gallery() {
             ))}
           </div>
         </div>
+      
       </section>
 
       {/* Gallery Grid */}
@@ -386,6 +398,7 @@ export function Gallery() {
         )}
       </AnimatePresence>
     </div>
+    </>
   );
 }
 
