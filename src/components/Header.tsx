@@ -74,7 +74,7 @@ export function Header() {
               ))}
             </nav>
 
-            {/* Phone Number 
+            {/* Phone Number */}
             <a
               href="tel:(205) 725-4889"
               className="flex items-center space-x-2 text-white hover:text-[#FF8C42] transition-colors duration-300"
@@ -82,7 +82,6 @@ export function Header() {
               <Phone size={18} />
               <span className="font-medium">205-725-4889</span>
             </a>
-             */}
           </div>
 
           {/* Mobile Menu Button */}
