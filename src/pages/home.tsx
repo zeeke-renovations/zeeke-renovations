@@ -278,7 +278,7 @@ export function Home() {
             className="absolute inset-0 opacity-15"
             style={{
               backgroundImage: `url('https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/z-circle.png')`,
-              backgroundSize: '75%',
+              backgroundSize: '50%',
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat',
             }}
@@ -323,8 +323,8 @@ export function Home() {
           <Link to="/contact">
             <motion.button
               className="relative bg-[#FF8C42] text-white px-6 py-3 rounded-lg overflow-hidden group text-sm md:text-base"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
+              whileHover={{ scale: 0.85 }}
+              whileTap={{ scale: 0.75 }}
             >
               <span className="relative z-10 font-semibold">
                 Get a Free Estimate
@@ -340,8 +340,8 @@ export function Home() {
           <Link to="/gallery">
             <motion.button
               className="border-2 border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:text-[#1a2332] transition-all duration-300 text-sm md:text-base"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
+              whileHover={{ scale: 0.85 }}
+              whileTap={{ scale: 0.75 }}
             >
               View Our Work
             </motion.button>
