@@ -49,6 +49,7 @@ export function Header() {
             >
               <span className="text-[#FF8C42]">Zeeke</span> Renovations
             </motion.div>
+            href="tel:(205) 725-4889
             
           </Link>
 
