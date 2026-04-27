@@ -307,6 +307,11 @@ export function Home() {
             <span className="block text-base sm:text-xl md:text-3xl font-bold mt-3 px-4 sm:px-2 leading-tight">
               Residential renovation services for Chelsea, AL and surrounding areas
             </span>
+            <a href="tel:(205) 725-4889">
+            <span className="block text-base sm:text-lg md:text-2xl font-semibold mt-4 text-white hover:text-[#FF8C42] transition-colors">
+              Call or Text: (205) 725-4889
+            </span>
+            </a>
           </motion.h1>
 
           <motion.div
