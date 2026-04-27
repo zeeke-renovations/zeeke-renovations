@@ -395,7 +395,7 @@ export function Home() {
                   className="rounded-2xl shadow-2xl"
                 />
                 <div className="absolute -bottom-12 -right-4 md:-bottom-12 md:-right-4 bg-[#FF8C42] text-white p-4 rounded-xl shadow-xl">
-                  <div className="text-1xl font-bold">License # 1221122</div>
+                  <div className="text-1xl font-bold">License # 41615</div>
                   <div className="text-1x1">Built Right, No Surprises</div>
                 </div>
               </div>

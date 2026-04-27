@@ -76,11 +76,11 @@ export function Header() {
 
             {/* Phone Number */}
             <a
-              href="tel:555-555-5555"
+              href="tel:205-725-4889"
               className="flex items-center space-x-2 text-white hover:text-[#FF8C42] transition-colors duration-300"
             >
               <Phone size={18} />
-              <span className="font-medium">555-555-5555</span>
+              <span className="font-medium">205-725-4889</span>
             </a>
           </div>
 
