@@ -40,7 +40,7 @@ const services = [
     description:
       "Turn that unused area into something the famiily can enjoy.",
     image:
-      "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/basement-1.png",
+      "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/br-base07.jpg",
     features: [
       "Room Creation and Design",
       "Sheetrock",
