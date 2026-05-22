@@ -105,12 +105,25 @@ const galleryItems = [
     description:
       "Extended deck to 12 x 60.",
     image:
+      "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/deck-tn01.png",
+    beforeImage:
+      "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/deck-tn00.jfif",
+  },
+  {
+    id: 9,
+    title: "Deck extension",
+    category: "Outdoor",
+    location: "Birmingham, AL",
+    year: "2026",
+    description:
+      "Removed old deck, build 10x12 deck with landing and less steep stairs.",
+    image:
       "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/deck-24.jpg",
     beforeImage:
       "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/deck-21.jpg",
   },
   {
-    id: 9,
+    id: 10,
     title: "Front Porch",
     category: "Outside",
     location: "Chelsea, AL",
