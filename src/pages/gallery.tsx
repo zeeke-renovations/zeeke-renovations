@@ -161,6 +161,19 @@ const galleryItems = [
     beforeImage:
       "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/br-base03.jpg",
   },
+   {
+    id: 13,
+    title: "Basement",
+    category: "Attic/Basement",
+    location: "Chelsea, AL",
+    year: "2026",
+    description:
+      "wrapped stairs around to the wall and carpeted.",
+    image:
+      "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/br-base12.jpg",
+    beforeImage:
+      "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/br-base06.jpg",
+  },
 ];
 
 const categories = [
