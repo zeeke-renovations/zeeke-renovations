@@ -135,6 +135,32 @@ const galleryItems = [
     beforeImage:
       "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/fp-1.jpg",
   },
+   {
+    id: 11,
+    title: "Basement",
+    category: "Attic/Basement",
+    location: "Chelsea, AL",
+    year: "2026",
+    description:
+      "Built wall over brick, replace 4x4 ceiling tile with 2x2, new flooring, paint, electrical",
+    image:
+      "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/br-base15.jpg",
+    beforeImage:
+      "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/br-base-01.jpg",
+  },
+  {
+    id: 12,
+    title: "Basement",
+    category: "Attic/Basement",
+    location: "Chelsea, AL",
+    year: "2026",
+    description:
+      "Built wall over brick, replace 4x4 ceiling tile with 2x2, new flooring, paint, electrical",
+    image:
+      "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/br-base13.jpg",
+    beforeImage:
+      "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/br-base-03.jpg",
+  },
 ];
 
 const categories = [
