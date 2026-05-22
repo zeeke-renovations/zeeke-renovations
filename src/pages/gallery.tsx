@@ -146,7 +146,7 @@ const galleryItems = [
     image:
       "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/br-base15.jpg",
     beforeImage:
-      "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/br-base-01.jpg",
+      "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/br-base01.jpg",
   },
   {
     id: 12,
@@ -159,7 +159,7 @@ const galleryItems = [
     image:
       "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/br-base13.jpg",
     beforeImage:
-      "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/br-base-03.jpg",
+      "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/br-base03.jpg",
   },
 ];
 
