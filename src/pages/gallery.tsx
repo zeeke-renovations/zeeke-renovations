@@ -85,7 +85,7 @@ const galleryItems = [
   },
   {
     id: 7,
-    title: "Deck",
+    title: "New Deck",
     category: "Outdoor",
     location: "Alabaster,AL",
     year: "2023",
@@ -98,12 +98,12 @@ const galleryItems = [
   },
   {
     id: 8,
-    title: "Deck extension",
+    title: "New Deck",
     category: "Outdoor",
-    location: "Chelsea, AL",
-    year: "2025",
+    location: "Birmingham, AL",
+    year: "2026",
     description:
-      "Extended deck to 12 x 60.",
+      "Removed old deck, build 10x12 deck with landing and less steep stairs.",
     image:
       "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/deck-tn01.png",
     beforeImage:
@@ -111,6 +111,19 @@ const galleryItems = [
   },
   {
     id: 9,
+    title: "Deck extension",
+    category: "Outdoor",
+    location: "Birmingham, AL",
+    year: "2025",
+    description:
+      "Extended deck 12 ft., added bottom support for walk in hottub.",
+    image:
+      "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/deck-24.jpg",
+    beforeImage:
+      "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/deck-21.jpg",
+  },
+  {
+    id: 10,
     title: "Front Porch",
     category: "Outside",
     location: "Chelsea, AL",
@@ -121,19 +134,6 @@ const galleryItems = [
       "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/fp-2.jpg",
     beforeImage:
       "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/fp-1.jpg",
-  },
-   {
-    id: 10,
-    title: "Deck extension",
-    category: "Outdoor",
-    location: "Birmingham, AL",
-    year: "2026",
-    description:
-      "Removed old deck, build 10x12 deck with landing and less steep stairs.",
-    image:
-      "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/deck-24.jpg",
-    beforeImage:
-      "https://raw.githubusercontent.com/zeeke-renovations/zr-images/main/deck-21.jpg",
   },
 ];
 
